@@ -2,8 +2,7 @@
 
 use Phalcon\Mvc\Controller;
 
-
-class IndexController extends Controller
+class UsersController extends Controller
 {
 
     public function indexAction()
@@ -11,6 +10,9 @@ class IndexController extends Controller
 
     }
 
+    public function signinAction()
+    {
 
+    }
 
 }
